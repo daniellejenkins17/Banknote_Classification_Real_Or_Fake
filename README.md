@@ -16,13 +16,16 @@ Entropy: measure of heterogeneity in the image data
 
  # Models:
 Logistic Regression 
+
 Decision Tree 
+
 Random Forest 
 
 # Logistic Regression (Tuning with C-regularization)
 Before tuning with C-regularization, the logistic regression predicted 10 bills as the wrong type, but after tuning, the algorithm predicted only 6 as the wrong type. The model shows entropy is not important and skewness is the most important.
 
-Random Forest was the best model and only predicted 1 bill as the wrong type 
+# Random Forest 
+The best model  was random forest. It only predicted 1 bill as the wrong type 
 
 # Conclusion 
 Variance, Skewness, and Kurtosis of the image data were the most important features when classifying fake vs real bills
