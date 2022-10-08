@@ -3,6 +3,8 @@
 Stakeholder: Banks who will want to detect the authenticity of bills
 
 Dataset: U.C. Irvine took images of 714 real and 657 fake bills, via wavelet transformed analysis 
+https://archive.ics.uci.edu/ml/datasets/banknote+authentication#
+
 Background information on wavelet transformed analysis: 
 https://www.youtube.com/watch?v=JdVq8Tn1ds0&t=350s
 
