@@ -50,4 +50,4 @@ The best model  was random forest. It only predicted 1 bill as the wrong type
 # Conclusion 
 Variance, Skewness, and Kurtosis of the image data were the most important features when classifying fake vs real bills
 The logistic regression analysis determined skewness was the most important feature, but random forest determined variance was the most important 
-Random forest was the most accurate model for banknote classification , with an accuracy score of 99.49%
+Random forest was the most accurate model for banknote classification, with an accuracy score of 99.49%
