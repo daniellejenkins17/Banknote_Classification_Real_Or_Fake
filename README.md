@@ -18,6 +18,18 @@ Skewness: the lack of symmetry of image data
 Kurtosis: the lengths of tails in the distribution (a measure of outliers) of the image data
 Entropy: measure of heterogeneity in the image data
 
+# Project Workflow: 
+1. Split the data 
+2. Scaled the data (organized it) 
+3. Fit the model to the training data (provided the model with data) 
+4. Made a pipeline for each model, sometimes with cross validation too
+5. Made a confusion matrix (TN/TP, FN/FP grid)
+6. Evaluated the model on the testing data: acc, prec, f1, best score
+7. Made a predictive finding: How well the model is able to predict the target (Shows you which features are the most important)
+8. Hyperparameter tuning 
+9. Final model
+10. Made predictive recommendations: Situations where predictions made by your model would and wouldn't be useful to the bank using this model
+
  # Models:
 Logistic Regression 
 
